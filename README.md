@@ -1,18 +1,21 @@
-# Bharat Q
+# Thank Q - Convenience App
+## Motivation
+Waiting for your favorite ride in a long queue is really frustrating, so we developed an app which delights guests and helps them beat the queue and have a joyous experience. 
+Today’s guests expect friction-free experiences, meaning long wait times, getting lost or missing out on activities just won’t cut it. By connecting the entire guest journey with our mobile app, customer can ensure that every visit counts. 
+‍
+## What "Thank Q" does  
+- Helps the customer in planning their day
+- Updates Queues in real time so the customer doesn't waste their time searching for the correct ride
 
-## Motivation 💪
-Every year we observe countless people getting lost and unfortunately killed during the pilgrimage season. The main root cause of this is the mismanagement of the crowds. So our team 
+## How we built it 🔧
+Flutter
+
+## What we are achieving 🤔
+- Reducing the percieved wait time
+- Creating a better customer experience
+- Enchancing customer flow
+- Improving productivity
+- Increasing efficiency
 
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Live Demo: 
