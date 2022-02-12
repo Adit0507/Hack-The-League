@@ -13,6 +13,7 @@ class HomeScreen extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: SplashPage(),
+      
     );
   }
 }
