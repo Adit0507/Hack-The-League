@@ -76,7 +76,6 @@ class _LoginPageState extends State<LoginPage> {
                       child: TextFormField(
                         obscureText: true,
                         decoration: InputDecoration(
-                         
                           hintText: "Enter password",
                           labelText: "Password",
                           focusedBorder: OutlineInputBorder(
@@ -84,6 +83,10 @@ class _LoginPageState extends State<LoginPage> {
                           ),
                         ),
                       ),
+                    ),
+                    ElevatedButton(
+                      onPressed: () {},
+                      child: Text("Login"),
                     ),
                   ],
                 ),
