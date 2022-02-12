@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:bharatq/home/home.dart';
+import 'package:bharatq/home/homeBottom.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -18,7 +19,7 @@ class _SplashPageState extends State<SplashPage> {
   void navigateToPage() {
     Navigator.pushReplacement(
       (context),
-      MaterialPageRoute(builder: (context) => HomePage()),
+      MaterialPageRoute(builder: (context) => HomeBottomBar()),
     );
   }
 
