@@ -62,6 +62,9 @@ class _LoginPageState extends State<LoginPage> {
                         decoration: InputDecoration(
                           hintText: "Enter username",
                           labelText: "Username",
+                          focusedBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(10),
+                          ),
                         ),
                       ),
                     ),
@@ -73,8 +76,12 @@ class _LoginPageState extends State<LoginPage> {
                       child: TextFormField(
                         obscureText: true,
                         decoration: InputDecoration(
+                         
                           hintText: "Enter password",
                           labelText: "Password",
+                          focusedBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(10),
+                          ),
                         ),
                       ),
                     ),
