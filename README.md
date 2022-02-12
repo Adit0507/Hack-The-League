@@ -1,6 +1,6 @@
 # Thank Q - Convenience App
 ## Motivation
-Waiting for your favorite ride in a long queue is really frustrating, so we developed an app which delights guests and helps them beat the queue and have a joyous experience 
+Waiting for your favorite ride in a long queue is really frustrating, so we developed an app which delights guests and helps them beat the queue and have a joyous experience. 
 Today’s guests expect friction-free experiences, meaning long wait times, getting lost or missing out on activities just won’t cut it. By connecting the entire guest journey with our mobile app, customer can ensure that every visit counts. 
 ‍
 ## What "Thank Q" does  
