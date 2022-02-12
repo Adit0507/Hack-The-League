@@ -1,6 +1,8 @@
-# bharatq
+# Bharat Q
 
-A new Flutter project.
+## Motivation 💪
+Every year we observe countless people getting lost and unfortunately killed during the pilgrimage season. The main root cause of this is the mismanagement of the crowds. So our team 
+
 
 ## Getting Started
 
