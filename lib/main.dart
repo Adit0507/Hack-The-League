@@ -1,3 +1,4 @@
+import 'package:bharatq/login/login.dart';
 import 'package:bharatq/splashscreen/splashscreen.dart';
 import 'package:flutter/material.dart';
 
@@ -12,8 +13,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplashPage(),
-      
+      home: LoginPage(),
     );
   }
 }
