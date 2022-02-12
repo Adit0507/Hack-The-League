@@ -1,9 +1,8 @@
 import 'dart:async';
 
+import 'package:bharatq/home/home.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
-import 'home_page.dart';
 
 class SplashPage extends StatefulWidget {
   @override
@@ -19,7 +18,7 @@ class _SplashPageState extends State<SplashPage> {
   void navigateToPage() {
     Navigator.pushReplacement(
       (context),
-      MaterialPageRoute(builder: (context) => M()),
+      MaterialPageRoute(builder: (context) => HomePage()),
     );
   }
 
@@ -40,7 +39,9 @@ class _SplashPageState extends State<SplashPage> {
       decoration: BoxDecoration(
         image: DecorationImage(
           fit: BoxFit.fitHeight,
-          image: ExactAssetImage("assets/splash_img.jpg"),
+          image: NetworkImage(
+            "https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          ),
         ),
       ),
     );

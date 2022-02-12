@@ -8,9 +8,6 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height: 500,
-      width: 500,
-    );
+    return Container(height: 500, width: 500, color: Colors.green);
   }
 }
