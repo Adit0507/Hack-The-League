@@ -1,8 +1,14 @@
-import 'package:bharatq/login/login.dart';
+import 'package:bharatq/login_Page.dart';
 import 'package:bharatq/splashscreen/splashscreen.dart';
 import 'package:flutter/material.dart';
+import 'package:google_sign_in/google_sign_in.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:get/get.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+
   runApp(HomeScreen());
 }
 
@@ -11,9 +17,9 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplashPage(),
+      home: LoginPage(),
     );
   }
 }

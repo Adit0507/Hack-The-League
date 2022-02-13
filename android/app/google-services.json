@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1026740662788",
+    "project_id": "bhartq-374b1",
+    "storage_bucket": "bhartq-374b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026740662788:android:288450f43c0a3d780a3b51",
+        "android_client_info": {
+          "package_name": "com.example.bharatq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026740662788-ivgppsb1n0mrttcb0vtd0jlur5p1glan.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bharatq",
+            "certificate_hash": "1e66ccaa84be37a36073a0815736faf8673a94bf"
+          }
+        },
+        {
+          "client_id": "1026740662788-b9gqlg23an7bt3o3o2ih9tsthuvj7ad6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnrR0VsAN_6mmPuBKQyc8-bbIdgszKbCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026740662788-b9gqlg23an7bt3o3o2ih9tsthuvj7ad6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

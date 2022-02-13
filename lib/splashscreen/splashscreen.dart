@@ -1,6 +1,5 @@
 import 'dart:async';
 
-import 'package:bharatq/home/home.dart';
 import 'package:bharatq/home/homeBottom.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

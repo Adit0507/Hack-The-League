@@ -16,10 +16,10 @@ class _HomeBottomBarState extends State<HomeBottomBar> {
   int index = 2;
   final screens = [
     HomeScreenPage(),
-    Profile(),
-    Qr(),
     Search(),
+    Qr(),
     Maps(),
+    Profile(),
   ];
   final items = <Widget>[
     Icon(
@@ -39,29 +39,28 @@ class _HomeBottomBarState extends State<HomeBottomBar> {
       size: 30,
     ),
     Icon(
-      Icons.settings,
+      Icons.person,
       size: 30,
     ),
   ];
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("aap"),
-      ),
-      body: screens[index],
-      bottomNavigationBar: CurvedNavigationBar(
-        color: Colors.deepPurple,
-        backgroundColor: Colors.white,
-        height: 60,
-        index: index,
-        items: items,
-        onTap: (index) {
-          setState(() {
-            this.index = index;
-          });
-        },
+    return SafeArea(
+      child: Scaffold(
+        body: screens[index],
+        bottomNavigationBar: CurvedNavigationBar(
+          color: Colors.deepPurple,
+          backgroundColor: Colors.white,
+          height: 60,
+          index: index,
+          items: items,
+          onTap: (index) {
+            setState(() {
+              this.index = index;
+            });
+          },
+        ),
       ),
     );
   }
