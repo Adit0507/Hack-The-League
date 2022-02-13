@@ -59,12 +59,18 @@ MANAGEMENT:
 ## How we built it 🔧
 Flutter
 
-## What we are achieving 🤔
-- Reducing the percieved wait time
-- Creating a better customer experience
-- Enchancing customer flow
-- Improving productivity
-- Increasing efficiency
 
+### Screenshots: 
 
-### Live Demo: 
+![WhatsApp Image 2022-02-13 at 16 36 55](https://user-images.githubusercontent.com/78037846/153750355-f513fd6b-7f81-4c8e-958e-fc70cf31f3b2.jpeg)
+
+![WhatsApp Image 2022-02-13 at 16 36 55 (1)](https://user-images.githubusercontent.com/78037846/153750361-1056aae9-139e-486f-a673-62ca1ab2a9ff.jpeg)
+
+![WhatsApp Image 2022-02-13 at 16 36 56](https://user-images.githubusercontent.com/78037846/153750367-ed265cc4-f178-4c0d-ba9e-d9503983ae82.jpeg)
+
+![WhatsApp Image 2022-02-13 at 16 36 56 (1)](https://user-images.githubusercontent.com/78037846/153750371-4f05aa46-e1e6-4331-8781-2fc6be4180a9.jpeg)
+
+![WhatsApp Image 2022-02-13 at 16 36 57](https://user-images.githubusercontent.com/78037846/153750375-dcc63377-a95b-40b7-8fa4-802c01b458b8.jpeg)
+
+![WhatsApp Image 2022-02-13 at 16 36 57 (1)](https://user-images.githubusercontent.com/78037846/153750389-5ddfb8bd-956d-47af-be83-579a54a1cdff.jpeg)
+
