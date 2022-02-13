@@ -11,7 +11,7 @@ class SplashPage extends StatefulWidget {
 
 class _SplashPageState extends State<SplashPage> {
   startSplashScreenTimer() async {
-    var _duration = new Duration(seconds: 5);
+    var _duration = new Duration(seconds: 2);
     return new Timer(_duration, navigateToPage);
   }
 
