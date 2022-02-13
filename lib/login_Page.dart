@@ -8,6 +8,7 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.deepPurple,
       body: Center(
         child: Obx(() {
           if (controller.googleAccount.value == null)

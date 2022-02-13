@@ -4,6 +4,8 @@ import 'package:bharatq/home/homeBottom.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+import '../login_Page.dart';
+
 class SplashPage extends StatefulWidget {
   @override
   _SplashPageState createState() => _SplashPageState();
@@ -11,14 +13,14 @@ class SplashPage extends StatefulWidget {
 
 class _SplashPageState extends State<SplashPage> {
   startSplashScreenTimer() async {
-    var _duration = new Duration(seconds: 2);
+    var _duration = new Duration(seconds: 4);
     return new Timer(_duration, navigateToPage);
   }
 
   void navigateToPage() {
     Navigator.pushReplacement(
       (context),
-      MaterialPageRoute(builder: (context) => HomeBottomBar()),
+      MaterialPageRoute(builder: (context) => LoginPage()),
     );
   }
 
@@ -39,9 +41,7 @@ class _SplashPageState extends State<SplashPage> {
       decoration: BoxDecoration(
         image: DecorationImage(
           fit: BoxFit.fitHeight,
-          image: NetworkImage(
-            "https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-          ),
+          image: AssetImage('assets/images/splashscreen.png'),
         ),
       ),
     );

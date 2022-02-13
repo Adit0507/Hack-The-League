@@ -15,30 +15,32 @@ class _ProfileState extends State<Profile> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.symmetric(horizontal: 50),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          CircleAvatar(
-            backgroundImage:
-                Image.network(controller.googleAccount.value?.photoUrl ?? '')
-                    .image,
-            radius: 100,
-          ),
-          Text(
-            controller.googleAccount.value?.displayName ?? '',
-            style: Get.textTheme.headlineSmall,
-          ),
-          Text(
-            controller.googleAccount.value?.email ?? '',
-            style: Get.textTheme.bodyText1,
-          ),
-          ActionChip(
-              label: Icon(Icons.logout),
-              onPressed: () {
-                controller.logout();
-              }),
-        ],
+      // padding: EdgeInsets.symmetric(horizontal: 50),
+      child: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            CircleAvatar(
+              backgroundImage:
+                  Image.network(controller.googleAccount.value?.photoUrl ?? '')
+                      .image,
+              radius: 100,
+            ),
+            Text(
+              controller.googleAccount.value?.displayName ?? '',
+              style: Get.textTheme.headlineSmall,
+            ),
+            Text(
+              controller.googleAccount.value?.email ?? '',
+              style: Get.textTheme.bodyText1,
+            ),
+            ActionChip(
+                label: Icon(Icons.logout),
+                onPressed: () {
+                  controller.logout();
+                }),
+          ],
+        ),
       ),
     );
   }

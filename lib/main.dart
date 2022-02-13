@@ -1,4 +1,5 @@
 import 'package:bharatq/login_Page.dart';
+import 'package:bharatq/pages/homScreen.dart';
 import 'package:bharatq/splashscreen/splashscreen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
@@ -19,7 +20,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginPage(),
+      home: SplashPage(),
     );
   }
 }
