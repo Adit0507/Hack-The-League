@@ -44,6 +44,9 @@ dependencies:
   
   provider: 
   get: ^4.6.1
+  rating_bar_flutter: ^1.0.2
+  qr_flutter: ^4.0.0
+  rive: ^0.8.1
  
  
 

@@ -20,6 +20,7 @@ class _HomeBottomBarState extends State<HomeBottomBar> {
     Qr(),
     Maps(),
     Profile(),
+
   ];
   final items = <Widget>[
     Icon(
