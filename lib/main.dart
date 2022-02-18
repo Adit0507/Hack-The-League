@@ -1,4 +1,4 @@
-import 'package:bharatq/login_Page.dart';
+// import 'package:bharatq/login_Page.dart';
 import 'package:bharatq/pages/homScreen.dart';
 import 'package:bharatq/splashscreen/splashscreen.dart';
 import 'package:flutter/material.dart';

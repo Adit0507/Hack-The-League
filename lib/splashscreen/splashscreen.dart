@@ -1,10 +1,13 @@
 import 'dart:async';
 
 import 'package:bharatq/home/homeBottom.dart';
+import 'package:bharatq/login/login_screen.dart';
+import 'package:bharatq/main.dart';
+import 'package:bharatq/pages/homScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import '../login_Page.dart';
+// import '../login_Page.dart';
 
 class SplashPage extends StatefulWidget {
   @override
@@ -20,7 +23,7 @@ class _SplashPageState extends State<SplashPage> {
   void navigateToPage() {
     Navigator.pushReplacement(
       (context),
-      MaterialPageRoute(builder: (context) => LoginPage()),
+      MaterialPageRoute(builder: (context) => LoginScreen()),
     );
   }
 
